@@ -1,3 +1,4 @@
 
 clean_data <- raw_data
-readStates <-
+
+readStates <-function(States)
