@@ -5,6 +5,7 @@ readStates <-function(States)
 {
     States <- States[-1]
     num.row <- nrow(States)
+    States <- States[-num.row]
     
     
     
