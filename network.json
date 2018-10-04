@@ -22,8 +22,8 @@
         {
             "ports": [
                 {
-                    "input": "MergeCensus",
-                    "output": "cleanCensus",
+                    "input": "cleanCensus",
+                    "output": "MergeCensus",
                     "type": "r_obj"
                 }
             ],
@@ -44,10 +44,12 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:31:10",
+    "updated_at": "2018-10-04 17:40:10",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
