@@ -7,11 +7,6 @@
         {
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "MergeArrests.R"
-        },
-        {
-            "ports": [],
-            "source": "MergeArrests.R",
             "target": "clean.R"
         }
     ],
@@ -32,6 +27,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:12:08",
+    "updated_at": "2018-10-04 17:12:36",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
