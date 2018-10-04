@@ -1,4 +1,4 @@
 
 MergeCensus <- cleanCensus
 
-arrests <-U
+arrests <-USArrests
