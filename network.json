@@ -5,19 +5,14 @@
     "created_at": "2018-10-04 16:42:28",
     "edges": [
         {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [],
+            "source": "MergeArrests.R",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -37,6 +32,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:11:53",
+    "updated_at": "2018-10-04 17:12:08",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
