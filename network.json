@@ -81,8 +81,11 @@
         },
         {
             "name": "B.png"
+        },
+        {
+            "name": "C.png"
         }
     ],
-    "updated_at": "2018-10-11 17:34:25",
+    "updated_at": "2018-10-11 17:34:30",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
