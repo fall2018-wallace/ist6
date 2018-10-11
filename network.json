@@ -40,6 +40,17 @@
             ],
             "source": "CleanDfStates.R",
             "target": "MergeData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "ArrestData",
+                    "output": "ArrestData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrests.R",
+            "target": "MergeData.R"
         }
     ],
     "nodes": [
@@ -77,6 +88,6 @@
             "name": "MergeData.R"
         }
     ],
-    "updated_at": "2018-10-11 17:21:28",
+    "updated_at": "2018-10-11 17:22:02",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
