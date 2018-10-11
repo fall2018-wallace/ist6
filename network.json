@@ -29,6 +29,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "CleanDfStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates1",
+                    "output": "dfStates1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CleanDfStates.R",
+            "target": "MergeData.R"
         }
     ],
     "nodes": [
@@ -66,6 +77,6 @@
             "name": "MergeData.R"
         }
     ],
-    "updated_at": "2018-10-11 17:18:21",
+    "updated_at": "2018-10-11 17:21:28",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
