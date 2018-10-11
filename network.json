@@ -56,10 +56,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "USArrests.R"
+            "name": "USArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergeData.R"
         }
     ],
-    "updated_at": "2018-10-11 17:17:15",
+    "updated_at": "2018-10-11 17:18:21",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
