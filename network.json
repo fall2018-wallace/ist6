@@ -127,6 +127,17 @@
             ],
             "source": "Boxplot.R",
             "target": "G.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataframe",
+                    "output": "mergedDataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "MurderCalculation.R"
         }
     ],
     "nodes": [
@@ -189,6 +200,6 @@
             "name": "MurderCalculation.R"
         }
     ],
-    "updated_at": "2018-10-11 17:43:39",
+    "updated_at": "2018-10-11 17:44:01",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
