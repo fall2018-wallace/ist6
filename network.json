@@ -213,10 +213,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "BarChart.R"
+            "name": "BarChart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "H.png"
         }
     ],
-    "updated_at": "2018-10-11 17:49:29",
+    "updated_at": "2018-10-11 17:51:41",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
