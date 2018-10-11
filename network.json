@@ -56,6 +56,16 @@
             ],
             "source": "Histogram.R",
             "target": "A.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "b",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "B.png"
         }
     ],
     "nodes": [
@@ -102,6 +112,6 @@
             "name": "E.png"
         }
     ],
-    "updated_at": "2018-10-11 17:35:08",
+    "updated_at": "2018-10-11 17:35:16",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
