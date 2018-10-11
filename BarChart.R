@@ -1,4 +1,7 @@
 
+library(ggplot2)
+options(scipen=999)
+
 #9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named "Total Murders".
 
 #We use the geom_col() function to generate a bar chart
