@@ -23,7 +23,7 @@
         {
             "ports": [
                 {
-                    "input": "dfstates",
+                    "input": "dfStates",
                     "type": "csv"
                 }
             ],
@@ -56,6 +56,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:16:04",
+    "updated_at": "2018-10-11 17:16:30",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
