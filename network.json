@@ -12,16 +12,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "MergeCensus",
                     "output": "cleanCensus",
                     "type": "r_obj"
@@ -29,6 +19,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfstates",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "CleanDfStates.R"
         }
     ],
     "nodes": [
@@ -50,10 +50,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "CleanDfStates.R"
+            "name": "CleanDfStates.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:08:18",
+    "updated_at": "2018-10-11 17:16:04",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
