@@ -46,6 +46,16 @@
             ],
             "source": "MergeData.R",
             "target": "Histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "A.png"
         }
     ],
     "nodes": [
@@ -92,6 +102,6 @@
             "name": "E.png"
         }
     ],
-    "updated_at": "2018-10-11 17:34:43",
+    "updated_at": "2018-10-11 17:35:08",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
