@@ -117,6 +117,16 @@
             ],
             "source": "Boxplot.R",
             "target": "F.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot.R",
+            "target": "G.png"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "G.png"
         }
     ],
-    "updated_at": "2018-10-11 17:42:24",
+    "updated_at": "2018-10-11 17:42:31",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
