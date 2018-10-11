@@ -96,6 +96,17 @@
             ],
             "source": "Histogram.R",
             "target": "E.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataframe",
+                    "output": "mergedDataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "Boxplot.R"
         }
     ],
     "nodes": [
@@ -146,6 +157,6 @@
             "name": "Boxplot.R"
         }
     ],
-    "updated_at": "2018-10-11 17:37:47",
+    "updated_at": "2018-10-11 17:40:21",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
