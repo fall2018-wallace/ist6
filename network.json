@@ -71,10 +71,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "Histogram.R"
+            "name": "Histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "A.png"
         }
     ],
-    "updated_at": "2018-10-11 17:31:16",
+    "updated_at": "2018-10-11 17:34:19",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
