@@ -183,8 +183,12 @@
         },
         {
             "name": "G.png"
+        },
+        {
+            "desc": "",
+            "name": "MurderCalculation.R"
         }
     ],
-    "updated_at": "2018-10-11 17:42:31",
+    "updated_at": "2018-10-11 17:43:39",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
