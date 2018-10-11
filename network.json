@@ -107,6 +107,16 @@
             ],
             "source": "MergeData.R",
             "target": "Boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "f",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot.R",
+            "target": "F.png"
         }
     ],
     "nodes": [
@@ -165,6 +175,6 @@
             "name": "G.png"
         }
     ],
-    "updated_at": "2018-10-11 17:42:16",
+    "updated_at": "2018-10-11 17:42:24",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
