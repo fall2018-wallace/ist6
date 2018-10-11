@@ -149,6 +149,16 @@
             ],
             "source": "MergeData.R",
             "target": "BarChart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "H.png"
         }
     ],
     "nodes": [
@@ -228,6 +238,6 @@
             "name": "J.png"
         }
     ],
-    "updated_at": "2018-10-11 17:51:54",
+    "updated_at": "2018-10-11 17:52:04",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
