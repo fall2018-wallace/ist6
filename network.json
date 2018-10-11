@@ -42,9 +42,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "assigned_to": "nshah13",
             "desc": "",
             "name": "CleanDfStates.R",
@@ -63,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:28:36",
+    "updated_at": "2018-10-11 17:28:40",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
