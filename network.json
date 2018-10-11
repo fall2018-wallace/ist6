@@ -153,10 +153,15 @@
             "name": "E.png"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "Boxplot.R"
+            "name": "Boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "F.png"
         }
     ],
-    "updated_at": "2018-10-11 17:40:21",
+    "updated_at": "2018-10-11 17:42:09",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
