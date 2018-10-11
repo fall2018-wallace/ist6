@@ -190,6 +190,16 @@
             ],
             "source": "MergeData.R",
             "target": "Scatterplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "k",
+                    "type": "png"
+                }
+            ],
+            "source": "Scatterplot.R",
+            "target": "K.png"
         }
     ],
     "nodes": [
@@ -278,6 +288,6 @@
             "name": "K.png"
         }
     ],
-    "updated_at": "2018-10-11 17:57:37",
+    "updated_at": "2018-10-11 17:57:56",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
