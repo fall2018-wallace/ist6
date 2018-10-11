@@ -140,8 +140,12 @@
         },
         {
             "name": "E.png"
+        },
+        {
+            "desc": "",
+            "name": "Boxplot.R"
         }
     ],
-    "updated_at": "2018-10-11 17:35:36",
+    "updated_at": "2018-10-11 17:37:47",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
