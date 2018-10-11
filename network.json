@@ -179,6 +179,17 @@
             ],
             "source": "BarChart.R",
             "target": "J.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataframe",
+                    "output": "mergedDataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "Scatterplot.R"
         }
     ],
     "nodes": [
@@ -262,6 +273,6 @@
             "name": "Scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 17:55:45",
+    "updated_at": "2018-10-11 17:56:04",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
