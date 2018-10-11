@@ -196,10 +196,16 @@
             "name": "G.png"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "MurderCalculation.R"
+            "name": "MurderCalculation.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "BarChart.R"
         }
     ],
-    "updated_at": "2018-10-11 17:44:01",
+    "updated_at": "2018-10-11 17:49:12",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
