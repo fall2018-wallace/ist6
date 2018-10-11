@@ -269,10 +269,15 @@
             "name": "J.png"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "Scatterplot.R"
+            "name": "Scatterplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "K.png"
         }
     ],
-    "updated_at": "2018-10-11 17:56:04",
+    "updated_at": "2018-10-11 17:57:37",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
