@@ -54,8 +54,12 @@
             "desc": "",
             "name": "CleanDfStates.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-11 17:16:30",
+    "updated_at": "2018-10-11 17:17:15",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
