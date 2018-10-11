@@ -256,8 +256,12 @@
         },
         {
             "name": "J.png"
+        },
+        {
+            "desc": "",
+            "name": "Scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 17:53:25",
+    "updated_at": "2018-10-11 17:55:45",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
