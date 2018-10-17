@@ -15,7 +15,7 @@ mergedDataFrame1$stateName= tolower(mergedDataFrame1$stateName) #ggplot wants al
 
 
 map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
-map.Murder<- map.Murder + geom_map(map=us, fill=mergedDataFrame1$Murder)
+map.Murder<- map.Murder + geom_map(map=us, fill=Murder)
 map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
 map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
 murdermap <- map.Murder
