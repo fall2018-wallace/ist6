@@ -222,6 +222,16 @@
             ],
             "source": "AreaCentre.R",
             "target": "MapColouring.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColouring.R",
+            "target": "SimpleMap.png"
         }
     ],
     "nodes": [
@@ -325,6 +335,6 @@
             "name": "SimpleMap.png"
         }
     ],
-    "updated_at": "2018-10-17 05:17:02",
+    "updated_at": "2018-10-17 05:17:57",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
