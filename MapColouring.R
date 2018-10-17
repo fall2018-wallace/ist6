@@ -10,3 +10,9 @@ map.simple<- map.simple + geom_map(map=us, fill="white",color="black") #With geo
 map.simple<- map.simple +expand_limits(x= us$long, y= us$lat) #We expand the limits based on longitudes and latitudes for the united states
 map <- map.simple
 map.simple<-map.simple +coord_map()+ ggtitle("Map of USA") #We use this function to keep the map from being distorted or stretched
+
+map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
+map.Murder<- map.Murder + geom_map(map=us, fill=mergedDataFrame1$Murder)
+map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
+map.Murder<-map.Murder +coord_map()+ ggtitle("basic map of USA")
+murdermap <- map.Murder
