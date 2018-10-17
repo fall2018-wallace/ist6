@@ -346,8 +346,11 @@
         },
         {
             "name": "MurderMap.png"
+        },
+        {
+            "name": "Populationperstate.png"
         }
     ],
-    "updated_at": "2018-10-17 05:38:28",
+    "updated_at": "2018-10-17 05:38:37",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
