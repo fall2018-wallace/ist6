@@ -14,5 +14,5 @@ map.simple<-map.simple +coord_map()+ ggtitle("Map of USA") #We use this function
 map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 map.Murder<- map.Murder + geom_map(map=us, fill=mergedDataFrame1$Murder)
 map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
-map.Murder<-map.Murder +coord_map()+ ggtitle("basic map of USA")
+map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
 murdermap <- map.Murder
