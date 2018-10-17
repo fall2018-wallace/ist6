@@ -12,3 +12,4 @@ options(scipen=999)
 latlon <- geocode(source = "dsk","nyc, new york, ny")
 
 latlon
+
