@@ -242,6 +242,16 @@
             ],
             "source": "MapColouring.R",
             "target": "MurderMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MapColouring.R",
+            "target": "Populationperstate.R"
         }
     ],
     "nodes": [
@@ -352,6 +362,6 @@
             "name": "Populationperstate.R"
         }
     ],
-    "updated_at": "2018-10-17 05:37:38",
+    "updated_at": "2018-10-17 05:37:53",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
