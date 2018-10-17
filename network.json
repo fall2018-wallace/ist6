@@ -232,6 +232,16 @@
             ],
             "source": "MapColouring.R",
             "target": "SimpleMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdermap",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColouring.R",
+            "target": "MurderMap.png"
         }
     ],
     "nodes": [
@@ -338,6 +348,6 @@
             "name": "MurderMap.png"
         }
     ],
-    "updated_at": "2018-10-17 05:20:23",
+    "updated_at": "2018-10-17 05:20:36",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
