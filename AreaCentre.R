@@ -7,5 +7,5 @@ area<- state.area #Reading in the inbuilt dataset state.area
 center<- state.center #Reading in the inbuilt datadrame state.center
 dataframe<- data.frame(stateName,area,center) #Creates a dataframe of the three variables 
 dataframe 
-mergedDF<- merge(mergedDataframe1, dataframe, by='stateName') #Merges the dataframes MergedDataframes and Dataframe
-View(mergedDF)
+mergedDF<- merge(mergedDataframe, dataframe, by='stateName') #Merges the dataframes MergedDataframes and Dataframe
+mergedDF
