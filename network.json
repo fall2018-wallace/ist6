@@ -220,7 +220,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "MergeData.R",
+            "source": "AreaCentre.R",
             "target": "MapColouring.R"
         }
     ],
@@ -316,10 +316,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "MapColouring.R"
+            "name": "MapColouring.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 05:05:09",
+    "updated_at": "2018-10-17 05:07:13",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
