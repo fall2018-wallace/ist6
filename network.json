@@ -215,8 +215,8 @@
         {
             "ports": [
                 {
-                    "input": "mergedDataFrame1",
-                    "output": "mergedDataFrame1",
+                    "input": "mergedDataframe1",
+                    "output": "mergedDataframe1",
                     "type": "r_obj"
                 }
             ],
@@ -322,6 +322,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 05:07:13",
+    "updated_at": "2018-10-17 05:13:07",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
