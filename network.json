@@ -252,6 +252,17 @@
             ],
             "source": "MapColouring.R",
             "target": "Populationperstate.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDataFrame1",
+                    "output": "mergeDataFrame1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "AreaCentre.R",
+            "target": "ZoomMap.R"
         }
     ],
     "nodes": [
@@ -365,6 +376,6 @@
             "name": "ZoomMap.R"
         }
     ],
-    "updated_at": "2018-10-17 05:53:16",
+    "updated_at": "2018-10-17 05:53:34",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
