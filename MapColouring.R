@@ -23,3 +23,10 @@ map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
 map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
 map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
 murdermap <- map.Murder
+
+map.point<- ggplot(mergedDataFrame1, aes(map_id=stateName))
+map.point<- map.point + geom_map(map=us,aes( fill=area))
+map.point<- map.point +expand_limits(x= us$long, y= us$lat)
+map.point<- map.point + geom_point(aes(x = x, y = y, size=population))
+map.point<-map.point +coord_map()+ ggtitle("Population per state")
+population <- map.point
