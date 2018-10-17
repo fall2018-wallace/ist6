@@ -299,10 +299,16 @@
             "name": "K.png"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "AreaCentre.R"
+            "name": "AreaCentre.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MapColouring.R"
         }
     ],
-    "updated_at": "2018-10-17 04:56:28",
+    "updated_at": "2018-10-17 05:04:59",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
