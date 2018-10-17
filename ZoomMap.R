@@ -13,3 +13,6 @@ latlon <- geocode(source = "dsk","nyc, new york, ny")
 
 latlon
 
+mapZoom <- mapZoom + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
+
+mapZoom <- mapZoom + coord_map() 
