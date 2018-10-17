@@ -333,8 +333,11 @@
         },
         {
             "name": "SimpleMap.png"
+        },
+        {
+            "name": "MurderMap.png"
         }
     ],
-    "updated_at": "2018-10-17 05:17:57",
+    "updated_at": "2018-10-17 05:20:23",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
