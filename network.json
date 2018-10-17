@@ -256,8 +256,8 @@
         {
             "ports": [
                 {
-                    "input": "mergeDataFrame1",
-                    "output": "mergeDataFrame1",
+                    "input": "mergedDataFrame1",
+                    "output": "mergedDataFrame1",
                     "type": "r_obj"
                 }
             ],
@@ -376,6 +376,6 @@
             "name": "ZoomMap.R"
         }
     ],
-    "updated_at": "2018-10-17 05:53:34",
+    "updated_at": "2018-10-17 05:53:55",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
