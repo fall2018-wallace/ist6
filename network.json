@@ -200,6 +200,17 @@
             ],
             "source": "Scatterplot.R",
             "target": "K.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataframe",
+                    "output": "mergedDataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "AreaCentre.R"
         }
     ],
     "nodes": [
@@ -292,6 +303,6 @@
             "name": "AreaCentre.R"
         }
     ],
-    "updated_at": "2018-10-17 04:55:48",
+    "updated_at": "2018-10-17 04:56:28",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
