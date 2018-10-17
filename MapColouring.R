@@ -1,5 +1,5 @@
 
-mergedDataframe1$stateName= tolower(mergedDataframe1$stateName) #ggplot wants all the statenames to be in lower case thus we used the tolower command.
+mergedDataFrame1$stateName= tolower(mergedDataFrame1$stateName) #ggplot wants all the statenames to be in lower case thus we used the tolower command.
 
 us<-map_data("state") #We get the map of USA with the following line of code
 map.simple<- ggplot(mergedDataframe1, aes(map_id=stateName)) 
