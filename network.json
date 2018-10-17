@@ -211,6 +211,17 @@
             ],
             "source": "MergeData.R",
             "target": "AreaCentre.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataFrame1",
+                    "output": "mergedDataFrame1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "MapColouring.R"
         }
     ],
     "nodes": [
@@ -309,6 +320,6 @@
             "name": "MapColouring.R"
         }
     ],
-    "updated_at": "2018-10-17 05:04:59",
+    "updated_at": "2018-10-17 05:05:09",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
