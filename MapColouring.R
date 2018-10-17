@@ -14,6 +14,7 @@ map.simple<-map.simple +coord_map()+ ggtitle("Map of USA") #We use this function
 mergedDataFrame1$stateName= tolower(mergedDataFrame1$stateName) #ggplot wants all the statenames to be in lower case thus we used the tolower command.
 
 
+
 map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
 map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
