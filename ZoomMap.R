@@ -6,6 +6,7 @@
 # Hint: set the xlim and ylim to NYC +/- 10
 library(maps)
 library(ggplot2)
+library(geocode)
 options(scipen=999)
 
 latlon <- geocode(source = "dsk","nyc, new york, ny")
