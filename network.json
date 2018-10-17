@@ -320,8 +320,11 @@
             "desc": "",
             "name": "MapColouring.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "SimpleMap.png"
         }
     ],
-    "updated_at": "2018-10-17 05:14:03",
+    "updated_at": "2018-10-17 05:17:02",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
