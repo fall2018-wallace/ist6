@@ -221,7 +221,7 @@
                 }
             ],
             "source": "AreaCentre.R",
-            "target": "MapColouring.R"
+            "target": "MapColourZoom.R"
         },
         {
             "ports": [
@@ -230,7 +230,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MapColouring.R",
+            "source": "MapColourZoom.R",
             "target": "SimpleMap.png"
         },
         {
@@ -240,7 +240,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MapColouring.R",
+            "source": "MapColourZoom.R",
             "target": "MurderMap.png"
         },
         {
@@ -250,7 +250,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MapColouring.R",
+            "source": "MapColourZoom.R",
             "target": "Populationperstate.png"
         },
         {
@@ -260,7 +260,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MapColouring.R",
+            "source": "MapColourZoom.R",
             "target": "ZoomedMap.png"
         }
     ],
@@ -356,12 +356,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "nshah13",
-            "desc": "",
-            "name": "MapColouring.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "SimpleMap.png"
         },
         {
@@ -372,8 +366,14 @@
         },
         {
             "name": "ZoomedMap.png"
+        },
+        {
+            "assigned_to": "nshah13",
+            "desc": "",
+            "name": "MapColourZoom.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 01:15:09",
+    "updated_at": "2018-10-18 01:26:04",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
