@@ -200,6 +200,68 @@
             ],
             "source": "Scatterplot.R",
             "target": "K.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataframe",
+                    "output": "mergedDataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeData.R",
+            "target": "AreaCentre.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDataFrame1",
+                    "output": "mergedDataFrame1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "AreaCentre.R",
+            "target": "MapColourZoom.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColourZoom.R",
+            "target": "SimpleMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdermap",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColourZoom.R",
+            "target": "MurderMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColourZoom.R",
+            "target": "Populationperstate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zoomedmap",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColourZoom.R",
+            "target": "ZoomedMap.png"
         }
     ],
     "nodes": [
@@ -286,8 +348,32 @@
         },
         {
             "name": "K.png"
+        },
+        {
+            "assigned_to": "nshah13",
+            "desc": "",
+            "name": "AreaCentre.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "SimpleMap.png"
+        },
+        {
+            "name": "MurderMap.png"
+        },
+        {
+            "name": "Populationperstate.png"
+        },
+        {
+            "name": "ZoomedMap.png"
+        },
+        {
+            "assigned_to": "nshah13",
+            "desc": "",
+            "name": "MapColourZoom.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:57:56",
+    "updated_at": "2018-10-18 01:26:04",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
