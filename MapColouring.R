@@ -48,4 +48,11 @@ latlon
 #mapzoom<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 #mapzoom <- mapzoom + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
 #mapzoom <- mapzoom + coord_map() 
+
+#map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
+#map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
+#map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
+map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
+murdermap <- map.Murder
+
 #zoomedmap <-mapzoom
