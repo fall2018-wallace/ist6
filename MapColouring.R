@@ -50,7 +50,7 @@ latlon
 #map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
 map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
 map.Murder <- map.Murder + coord_map() 
-#map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
+map.Murder<-map.Murder +coord_map()+ ggtitle("Zoomed map of North Eastern USA")
 
 zoomedmap <- map.Murder
 
