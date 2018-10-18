@@ -39,16 +39,10 @@ population <- map.point
 # Hint: get the lat and lon of new york city
 
 # Hint: set the xlim and ylim to NYC +/- 10
-library(maps)
-library(ggplot2)
-library(ggmap)
-options(scipen=999)
 
 latlon <- geocode(source = "dsk","nyc, new york, ny")
 latlon
-#mapzoom<- ggplot(mergedDataFrame1, aes(map_id=stateName))
-#mapzoom <- mapzoom + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
-#mapzoom <- mapzoom + coord_map() 
+
 
 #map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 #map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
