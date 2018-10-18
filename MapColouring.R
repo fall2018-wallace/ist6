@@ -45,13 +45,13 @@ latlon <- geocode(source = "dsk","nyc, new york, ny")
 latlon
 
 
-#map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
+map.zoom<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 #map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
 #map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
-map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
-map.Murder <- map.Murder + coord_map() 
+map.zoom <- map.zoom + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
+map.zoom <- map.zoom + coord_map() 
 #map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
 
-zoomedmap <- map.Murder
+zoomedmap <- map.zoom
 
 #zoomedmap <-mapzoom
