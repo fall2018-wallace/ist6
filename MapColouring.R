@@ -44,12 +44,8 @@ library(ggmap)
 options(scipen=999)
 
 latlon <- geocode(source = "dsk","nyc, new york, ny")
-
 latlon
-
-map.point <- map.point + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
-
-map.point <- map.point + coord_map() 
-
-
-zoomedmap <-map.point
+mapzoom<- ggplot(mergedDataFrame1, aes(map_id=stateName))
+mapzoom <- mapzoom + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
+mapzoom <- mapzoom + coord_map() 
+zoomedmap <-mapzoom
