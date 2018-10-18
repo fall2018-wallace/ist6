@@ -372,10 +372,15 @@
             "name": "Populationperstate.png"
         },
         {
+            "assigned_to": "nshah13",
             "desc": "",
-            "name": "ZoomMap.R"
+            "name": "ZoomMap.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "zoomedmap.png"
         }
     ],
-    "updated_at": "2018-10-17 05:53:55",
+    "updated_at": "2018-10-18 00:50:54",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
