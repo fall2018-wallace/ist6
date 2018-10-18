@@ -256,17 +256,6 @@
         {
             "ports": [
                 {
-                    "input": "mergedDataFrame1",
-                    "output": "mergedDataFrame1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "AreaCentre.R",
-            "target": "ZoomMap.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "zoomedmap",
                     "type": "png"
                 }
@@ -382,15 +371,9 @@
             "name": "Populationperstate.png"
         },
         {
-            "assigned_to": "nshah13",
-            "desc": "",
-            "name": "ZoomMap.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "ZoomedMap.png"
         }
     ],
-    "updated_at": "2018-10-18 01:15:00",
+    "updated_at": "2018-10-18 01:15:09",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
