@@ -263,6 +263,16 @@
             ],
             "source": "AreaCentre.R",
             "target": "ZoomMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zoomedmap",
+                    "type": "png"
+                }
+            ],
+            "source": "MapColouring.R",
+            "target": "zoomedmap.png"
         }
     ],
     "nodes": [
@@ -381,6 +391,6 @@
             "name": "zoomedmap.png"
         }
     ],
-    "updated_at": "2018-10-18 00:50:54",
+    "updated_at": "2018-10-18 00:51:08",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
