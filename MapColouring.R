@@ -44,9 +44,8 @@ population <- map.point
 latlon <- geocode(source = "dsk","nyc, new york, ny") #We use the geocode function to obtain the latitude and longitude of NewYork
 latlon
 
-map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10) #We define the limits as +-10 as we need a zoomed output
+map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10) 
+#We define the limits as +-10 as we need a zoomed output
 map.Murder <- map.Murder + coord_map() 
-map.Murder<-map.Murder +coord_map()+ ggtitle("Zoomed map of North Eastern USA")
-
 zoomedmap <- map.Murder
 
