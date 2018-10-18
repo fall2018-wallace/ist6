@@ -376,8 +376,11 @@
             "desc": "",
             "name": "ZoomMap.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "ZoomedMap.png"
         }
     ],
-    "updated_at": "2018-10-18 01:14:38",
+    "updated_at": "2018-10-18 01:14:48",
     "url": "https://github.com/fall2018-wallace/ist6"
 }
