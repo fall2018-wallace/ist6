@@ -21,7 +21,7 @@ mergedDataFrame1$stateName= tolower(mergedDataFrame1$stateName) #ggplot wants al
 
 
 map.Murder<- ggplot(mergedDataFrame1, aes(map_id=stateName))
-map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
+map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder)) #We filled Dataframe$Murder as we need the output as the shaded murder distributon
 map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
 map.Murder<-map.Murder +coord_map()+ ggtitle("Murder Rate of USA")
 murdermap <- map.Murder
@@ -29,7 +29,7 @@ murdermap <- map.Murder
 map.point<- ggplot(mergedDataFrame1, aes(map_id=stateName))
 map.point<- map.point + geom_map(map=us,aes( fill=area))
 map.point<- map.point +expand_limits(x= us$long, y= us$lat)
-map.point<- map.point + geom_point(aes(x = x, y = y, size=population))
+map.point<- map.point + geom_point(aes(x = x, y = y, size=population)) 
 map.point<-map.point +coord_map()+ ggtitle("Population per state")
 population <- map.point
 
@@ -41,17 +41,12 @@ population <- map.point
 
 # Hint: set the xlim and ylim to NYC +/- 10
 
-latlon <- geocode(source = "dsk","nyc, new york, ny")
+latlon <- geocode(source = "dsk","nyc, new york, ny") #We use the geocode function to obtain the latitude and longitude of NewYork
 latlon
 
-
-#map.zoom<- ggplot(mergedDataFrame1, aes(map_id=stateName))
-#map.Murder<- map.Murder + geom_map(map=us,aes( fill=mergedDataFrame1$Murder))
-#map.Murder<- map.Murder +expand_limits(x= us$long, y= us$lat)
-map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
+map.Murder <- map.Murder + xlim(latlon$lon-10 , latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10) #We define the limits as +-10 as we need a zoomed output
 map.Murder <- map.Murder + coord_map() 
 map.Murder<-map.Murder +coord_map()+ ggtitle("Zoomed map of North Eastern USA")
 
 zoomedmap <- map.Murder
 
-#zoomedmap <-mapzoom
